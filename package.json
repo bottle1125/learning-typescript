@@ -5,21 +5,34 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "dev": "webpack-dev-server --inline  --hot --host 0.0.0.0 --port 4000"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^10.0.8",
+    "autoprefixer": "^8.5.0",
     "css-loader": "^0.28.11",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0",
+    "postcss-loader": "^2.1.5",
+    "postcss-px2vw": "0.0.1",
+    "style-loader": "^0.21.0",
     "ts-loader": "^2.0.3",
     "typescript": "^2.7.2",
     "vue-loader": "^12.0.3",
     "vue-template-compiler": "^2.5.2",
-    "webpack": "^2.5.0"
+    "webpack": "^2.5.0",
+    "webpack-dev-server": "^2.11.2"
   },
   "dependencies": {
+    "axios": "^0.18.0",
+    "mockjs": "^1.0.1-beta3",
     "vue": "^2.5.16",
     "vue-class-component": "^6.2.0",
-    "vue-property-decorator": "^6.0.0"
+    "vue-property-decorator": "^6.0.0",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1",
+    "vuex-class": "^0.3.1"
   }
 }

@@ -1,0 +1,4 @@
+export default {
+    SET_CATEGORIES: 'SET_CATEGORIES',
+    SET_NEW_MUSIC_LIST: 'SET_NEW_MUSIC_LIST'
+}
